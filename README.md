@@ -1,1 +1,1 @@
-This is my first c readme
+c is fun
