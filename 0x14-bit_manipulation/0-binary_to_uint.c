@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * _pow - function that return the
- * value of x raised to the power of y
- *
- * @x: parameter to base
- * @y: parameter of pow
- *
- * Return: End program
+ * _pow - Function returns the
+ * value of x raised to the power of y.
+ * @x: parameter to change base.
+ * @y: parameter of power.
+ * Return: 0 Always.
  */
 int _pow(int x, int y)
 {
@@ -28,12 +26,10 @@ int _pow(int x, int y)
 	return (0);
 }
 /**
- * binary_to_uint - function that converts a binary number to an
- * unsigned int
- *
+ * binary_to_uint - Function converts a binary number to an
+ * unsigned int.
  * @b: Pointer with the string whit the number to convert
- *
- * Return: The number converted
+ * Return: Number converted.
  */
 unsigned int binary_to_uint(const char *b)
 {
