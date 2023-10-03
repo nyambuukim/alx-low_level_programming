@@ -23,4 +23,4 @@ int error_handler(int fd, char *fname, int type, char *buffer);
 void close_file(int fd);
 
 #endif
-/*Main_H */
+
